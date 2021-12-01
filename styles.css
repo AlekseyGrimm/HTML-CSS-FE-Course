@@ -1,17 +1,22 @@
 .header{
     display: flex;
+    justify-content: center;
     margin: 1em;
 }
 
 .page{
+    display: flex;
     background-color: #e8f0f1;
+    border-style: solid;
+    border-color: blue;
+    max-width: 60em;
+    flex-direction: column;
 }
 
 .foto{
-    margin: 2em;
     max-width: 15rem;
-    min-width: 10rem;
     border-radius: 50%;
+    margin-right: 10em;
 }
 
 .page_name{
