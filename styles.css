@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin: 1em;
+    background-color: #c9eef2;
 }
 
 .page{
@@ -51,6 +52,12 @@
 
 .container{
     display: flex;
+    background-color: bisque;
+    margin: 1em;
+}
+
+.project_p{
+    margin: 1em;
 }
 
 .name{
@@ -88,10 +95,6 @@
     filter: blur(20px);   
 }
 
-.container {
-    width: 100%;
-}
-
 .skills {
     display: flex;    
     justify-content: space-between;
@@ -101,7 +104,7 @@
     color: white;
 }
 
-.html {width: 90%; background-color: #4CAF50;} 
+.html {width: 22em; background-color: #4CAF50;} 
 .css {width: 80%; background-color: #2196F3;} 
 .js {width:70%; background-color: #f44336;} 
 .react {width: 65%; background-color: #808080;} 
