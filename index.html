@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>CV</title>
 </head>
 
-<body class="page">
+<body class="page font">
     <section class="header">
-        <img class="foto" src="./img/ava.jpg" alt="foto">
+        <div class="border_foto"><img class="foto" src="./img/ava.jpg" alt="foto"></div>
         <div class="page_name">
             <h1 class="name">Alexey Stalpets</h1>
             <h2 id="blink" class="job">Frontend developer</h2>
@@ -29,7 +30,7 @@
                 <p><a href="https://github.com/AlekseyGrimm" target="_blank" class="links">
                         <img src="./img/github.png" class="ico" alt="">Aleksey</a></p>
             </div>
-            <div class="language a ">&#10022;&ensp;LANGUAGE
+            <div class="language a">&#10022;&ensp;LANGUAGE
                 <div class="rus">Rusian : C2</div>
                 <div class="eng">English : A2</div>
             </div>
@@ -40,7 +41,8 @@
             </div>
             <div class="about a">&#10022;&ensp;ABOUT ME
                 <p>&#8658; I want to join a team that don't know the word stop, in which I can develop.</p>
-                <p>&#8658; I good plan my working hours. I can understand else's developers code, I have an analytical mind.
+                <p>&#8658; I good plan my working hours. I can understand else's developers code, I have an analytical
+                    mind.
                     Read the book "Stoyan Stefanov - JavaScript Shablony (2011)".
                     Cheerful and sociable, I always find a common language with the new team.
                 </p>
@@ -76,15 +78,57 @@
                 <p>09/2020 - 01/2021</p>
             </div>
             <div class="project a">&#128293;&ensp;PET-PROJECT</div>
-            <p class="project_p">&#9658;&ensp;<a href="http://alekseygrimm.github.io/Fancy-weather">Fancy Weather</a> &mdash; 
+            <!-- <p class="project_p">&#9658;&ensp;<a href="http://alekseygrimm.github.io/Fancy-weather">Fancy Weather</a> &mdash; 
                 The following technologies were used in this project: html, css, JavaScript, webpack.
                 </p>
             <p class="project_p">&#9658;&ensp;<a href="https://uladzislaukutarkin.github.io/travel-app/#/">Travel-App</a> &mdash; 
                 The following technologies were used in this project: React, TypeScript, axios.
-                </p>
+                </p> -->
+            <div class="container_sidebar">
+                <div class="sidebar">
+                    <div style="background: linear-gradient(229.99deg,
+                    #715c5e -26%, 
+                    #d000da 145%);">
+                        <h1>LangApp</h1>
+                        <p>React</p>
+                    </div>
+                    <div style="background: linear-gradient(215.32deg, 
+                    #37b4d6 -7%, 
+                    #349552 124%);">
+                        <h1>BorderColor</h1>
+                        <p>HTML, CSS, JS</p>
+                    </div>
+                    <div style="background: linear-gradient(221.87deg, 
+                    #526259 40%, 
+                    #6e555d);">
+                        <h1>Weather</h1>
+                        <p>Webpack</p>
+                    </div>
+                    <div style="background: linear-gradient(220.16deg, 
+                    #090f1d -8%, 
+                    #b4c7e3 138%);">
+                        <h1>TravelApp</h1>
+                        <p>React</p>
+                    </div>
+                </div>
+                <div class="main-slide">
+                    <div style="background-image: url('./img/travelApp.png');"></div>
+                    <div style="background-image: url('./img/Weather.png');"></div>
+                    <div style="background-image: url('./img/Border-random-color.png');"></div>
+                    <div style="background-image: url('./img/RsLang.png');"></div>
+                </div>
+                <div class="controls">
+                    <button class="down-button">
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                    <button class="up-button">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+            </div>
         </section>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
