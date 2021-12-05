@@ -1,29 +1,31 @@
 html{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-image: url(./img//p-fon-matritsa-45.png);
+    background-attachment: fixed;
 }
 
 .font{
-    font-family: cursive;
+    font-family: serif;
 }
 
 .header{
     display: flex;
     justify-content: center;
     margin: 1em;
-    background-color: #3b33b1;
+    font-family: monospace;
+    background-color: #3b33b18a;
     transition: 0.5s;
 }
 
 .header:hover{
     box-shadow: 0 0 20px 10px #a500ff;
     cursor: pointer;
+    background-color: #3b33b1dc;
 }
 
 .page{
     display: flex;
-    background-color: #e8f0f1;
     border-style: solid;
     border-color: blue;
     max-width: 60em;
@@ -84,13 +86,14 @@ html{
 
 .container{
     display: flex;
-    background-color: #bbeaed;;
+    background-color: #bbeaedad;
     margin: 1em;
     transition: 0.4s;
 }
 
 .container:hover{
     box-shadow: 0 0 20px 10px #a500ff;
+    background-color: #bbeaedd7;
 }
 
 .project_p{
