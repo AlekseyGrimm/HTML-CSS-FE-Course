@@ -19,7 +19,7 @@ html{
 }
 
 .header:hover{
-    box-shadow: 0 0 20px 10px #a500ff;
+    box-shadow: 0 0 20px 10px #00ff99;
     cursor: pointer;
     background-color: #3b33b1dc;
 }
@@ -27,7 +27,7 @@ html{
 .page{
     display: flex;
     border-style: solid;
-    border-color: blue;
+    border-color: #00ff73;
     max-width: 60em;
     flex-direction: column;
 }
@@ -92,7 +92,7 @@ html{
 }
 
 .container:hover{
-    box-shadow: 0 0 20px 10px #a500ff;
+    box-shadow: 0 0 20px 10px #00ff99;
     background-color: #bbeaedd7;
 }
 
@@ -101,7 +101,7 @@ html{
 }
 
 .name{
-    color: #fffdfd;
+    color: red;
     font-size: 3em;
     text-shadow: 0 1px 0 #969494,
     0 2px 0 #c9c9c9, 
