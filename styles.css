@@ -1,6 +1,7 @@
 html{
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 .font{
@@ -11,7 +12,13 @@ html{
     display: flex;
     justify-content: center;
     margin: 1em;
-    background-color: #c9eef2;
+    background-color: #3b33b1;
+    transition: 0.5s;
+}
+
+.header:hover{
+    box-shadow: 0 0 20px 10px #a500ff;
+    cursor: pointer;
 }
 
 .page{
@@ -23,20 +30,13 @@ html{
     flex-direction: column;
 }
 
-.border_foto{
-    margin-right: 10em;
-    background-color: #090909;
-    width: 15em;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 10px;
-}
-
 .foto{
     width: 15em;
     height: 15em;
     border-radius: 10em;
     margin-right: 10em;
     transition: 0.5s;
+    box-shadow: 0px 0px 20px 10px #ffffff;
 }
 .foto:hover{
     box-shadow: 0px 0px 20px 10px #673ab7;
@@ -84,8 +84,13 @@ html{
 
 .container{
     display: flex;
-    background-color: bisque;
+    background-color: #bbeaed;;
     margin: 1em;
+    transition: 0.4s;
+}
+
+.container:hover{
+    box-shadow: 0 0 20px 10px #a500ff;
 }
 
 .project_p{
@@ -136,7 +141,7 @@ html{
     color: white;
 }
 
-.html {width: 22em; background-color: #4CAF50;} 
+.html {width: 90%; background-color: #4CAF50;} 
 .css {width: 80%; background-color: #2196F3;} 
 .js {width:70%; background-color: #f44336;} 
 .react {width: 65%; background-color: #808080;} 
@@ -157,7 +162,7 @@ html{
 
 /* ////////////////////////Slider/////////////////////// */
 .container_sidebar {
-
+    margin: 5px;
     position: relative;
     overflow: hidden;
     width: 45vw;
