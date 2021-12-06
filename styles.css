@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("./font/HelveticaRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
 html{
     display: flex;
     justify-content: center;
@@ -6,7 +14,8 @@ html{
 }
 
 .font{
-    font-family: serif;
+    font-family: Helvetica;
+    margin: 1em;
 }
 
 .header{
@@ -57,7 +66,7 @@ html{
     animation: pulsate 1s linear infinite;
 }
 
-.a{
+.indent{
     margin: 1em;
 }
 
@@ -185,6 +194,7 @@ html{
 
 /* ////////////////////////Slider/////////////////////// */
 .container_sidebar {
+    max-width: 33em;
     margin: 5px;
     position: relative;
     overflow: hidden;
