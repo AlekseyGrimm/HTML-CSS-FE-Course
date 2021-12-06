@@ -18,7 +18,7 @@ html{
     margin: 1em;
 }
 
-.header{
+.sectionFirst{
     display: flex;
     justify-content: center;
     margin: 1em;
@@ -27,7 +27,7 @@ html{
     transition: 0.5s;
 }
 
-.header:hover{
+.sectionFirst:hover{
     box-shadow: 0 0 20px 10px #00ff99;
     cursor: pointer;
     background-color: #3b33b1dc;
