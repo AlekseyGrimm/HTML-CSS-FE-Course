@@ -84,6 +84,26 @@ html{
     transform: rotate(50deg) scale(1.7);
 }
 
+.certificates{
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate img{    
+    display: inline-block;
+    width: 20em;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+.certificate img:hover{    
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.certificate{
+    align-self: center;
+}
 .container{
     display: flex;
     background-color: #bbeaedad;
@@ -144,7 +164,7 @@ html{
     color: white;
 }
 
-.html {width: 90%; background-color: #4CAF50;} 
+.html {width: 85%; background-color: #4CAF50;} 
 .css {width: 80%; background-color: #2196F3;} 
 .js {width:70%; background-color: #f44336;} 
 .react {width: 65%; background-color: #808080;} 
@@ -249,4 +269,38 @@ button:focus {
     transform: translateY(-100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 680px){
+
+    .foto {
+        align-self: center;
+        width: 10em;
+        height: 10em;
+        border-radius: 10em;
+        margin: 2em;
+        transition: 0.5s;
+        box-shadow: 0px 0px 20px 10px #ffffff;
+    }
+
+    .container {
+        display: flex;
+        background-color: #bbeaedad;
+        margin: 1em;
+        transition: 0.4s;
+        flex-direction: column;
+    }
+
+    .container_sidebar {
+        margin: 5px;
+        position: relative;
+        overflow: hidden;
+        width: 80vw;
+        height: 45vh;
+    }
+
+    .border{
+        display: none;
+    }
+
 }
