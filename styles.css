@@ -33,7 +33,7 @@ html{
     background-color: #3b33b1dc;
 }
 
-.page{
+.wraper{
     display: flex;
     border-style: solid;
     border-color: #00ff73;
